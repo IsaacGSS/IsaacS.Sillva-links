@@ -20,6 +20,7 @@ body{
 }
 
 
+
 /* 👨‍👩‍👧‍👦 */
 main{
   font-family: 'Roboto', sans-serif;
@@ -43,7 +44,7 @@ div.perfil{
   height: 9.8em;
 
   display: flex;
-  margin-top: -1.8rem;
+  margin-top:-1.8px;
 
   justify-content: center;
   align-items: center;
@@ -59,6 +60,9 @@ div.perfil{
 
     border-radius: 100%;
   }
+    img#abra{
+      display: none;
+    }
 
 
 
@@ -91,17 +95,13 @@ div ul li, a{
   font-size: 1.1em;
 }
 
-  div ul li img{
-    margin-right: 1em;
-  }
-
-    div ul li{
+    div ul a{
       min-width: 18rem;
 
       justify-content: center;
 
       margin: 0.5rem 15px;
-      padding: 5px;
+      padding: 1rem;
 
       border-radius: 0.5em;
 
@@ -109,14 +109,22 @@ div ul li, a{
       background: rgba(255, 255, 255,0.1);
       backdrop-filter: blur(5px);
     }
-
-      #replit img{
-        width: 2.5rem;
-        height: 2.5rem;
+    
+      div ul a img{
+        position: fixed;
+        left: 12.5%;        
       }
 
-        p{
-          font-family: 'roboto mono', monospace;
-          font-size: 0.9rem;
-          margin-top: 1rem;
+        #replit img{
+          width: 2.5rem;
+          height: 2.5rem;
+          margin: 5px;
         }
+
+          p{
+            font-family: 'roboto mono', monospace;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+
+            opacity: 0.8;;
+          }
