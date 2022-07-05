@@ -54,7 +54,7 @@ div.perfil{
   border-radius: 100%;
 }
 
-  div.perfil img{
+  div.perfil img#fotoDePerfil{
     width: 9em;
     height: 9em;
 
@@ -62,6 +62,8 @@ div.perfil{
   }
     img#abra{
       display: none;
+      width: 9em;
+      height: 9em;
     }
 
 
