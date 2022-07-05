@@ -17,9 +17,10 @@ body{
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-
 }
 
+
+/* 👨‍👩‍👧‍👦 */
 main{
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -34,11 +35,15 @@ main{
 
 }
 
+
+
+/* 👥 */
 div.perfil{
   width: 9.8em;
   height: 9.8em;
 
   display: flex;
+  margin-top: -1.8rem;
 
   justify-content: center;
   align-items: center;
@@ -48,17 +53,33 @@ div.perfil{
   border-radius: 100%;
 }
 
-div.perfil img{
-  width: 9em;
-  height: 9em;
+  div.perfil img{
+    width: 9em;
+    height: 9em;
 
-  border-radius: 100%;
-}
+    border-radius: 100%;
+  }
 
-div.perfil h1{
+
+
+/* ✨ */
+h1{
   text-align: center;
+  margin: 0.5rem;
 }
 
+  h2{
+    font-family: 'Roboto Mono', monospace;
+  }
+
+    a.perfil{
+      margin-bottom: 1.5rem;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+
+
+/* 🔗 */
 div ul li, a{
   list-style: none;
   text-decoration: none;
@@ -70,30 +91,26 @@ div ul li, a{
   font-size: 1.1em;
 }
 
-div ul li img{
-  margin-right: 1em;
-}
+  div ul li img{
+    margin-right: 1em;
+  }
 
-div ul li{
-  min-width: 18rem;
+    div ul li{
+      min-width: 18rem;
 
-  justify-content: center;
+      justify-content: center;
 
-  margin: 0.5rem 15px;
-  padding: 5px;
+      margin: 0.5rem 15px;
+      padding: 5px;
 
-  border-radius: 0.5em;
+      border-radius: 0.5em;
 
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  background: rgba(255, 255, 255,0.1);
-  backdrop-filter: blur(5px);
-}
+      box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+      background: rgba(255, 255, 255,0.1);
+      backdrop-filter: blur(5px);
+    }
 
-#replit img{
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-
-
-
+      #replit img{
+        width: 2.5rem;
+        height: 2.5rem;
+      }
