@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Mono&display=swap');
 
 *{
   margin: 0;
@@ -9,6 +9,7 @@
 body{
   width: 100vw;
   height: 100vh;
+  
 
   background: url(img/walling-XLqiL-rz4V8-unsplash.jpg) no-repeat bottom center scroll;
   background-position: 30% 45%;
@@ -23,10 +24,11 @@ body{
 
 /* 👨‍👩‍👧‍👦 */
 main{
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 
   flex-direction: column;
 
@@ -49,7 +51,7 @@ div.perfil{
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(to left, #7f5ccc, #ff8ee3);
+  background: #8C52FF;
 
   border-radius: 100%;
 }
@@ -73,15 +75,10 @@ h1{
   text-align: center;
   margin: 0.5rem;
 }
-
-  h2{
+  a.perfil{
+    margin-bottom: 1.5rem;
     font-family: 'Roboto Mono', monospace;
   }
-
-    a.perfil{
-      margin-bottom: 1.5rem;
-      font-family: 'Roboto Mono', monospace;
-    }
 
 
 
@@ -90,6 +87,8 @@ div ul li, a{
   list-style: none;
   text-decoration: none;
   color: rgb(243, 243, 243);
+  font-family: 'Roboto Condensed', sans-serif;
+  
   
   display: flex;
   align-items: center;
@@ -97,36 +96,37 @@ div ul li, a{
   font-size: 1.1em;
 }
 
-    div ul a{
-      min-width: 18rem;
+  div ul a{
+    min-width: 18rem;
+    text-transform: uppercase;
 
-      justify-content: center;
+    justify-content: center;
+ 
+    margin: 0.5rem 15px;
+    padding: 1rem;
 
-      margin: 0.5rem 15px;
-      padding: 1rem;
+    border-radius: 0.5em;
 
-      border-radius: 0.5em;
-
-      box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-      background: rgba(255, 255, 255,0.1);
-      backdrop-filter: blur(5px);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(5px);
+  }
+  
+    div ul a img{
+      position: fixed;
+      left: 12.5%;        
     }
-    
-      div ul a img{
-        position: fixed;
-        left: 12.5%;        
+
+      #replit img{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 5px;
       }
 
-        #replit img{
-          width: 2.5rem;
-          height: 2.5rem;
-          margin: 5px;
+        footer{
+          font-family: 'roboto mono', monospace;
+          font-size: 0.9rem;
+          margin-top: 3vh;
+
+          opacity: 0.8;;
         }
-
-          p{
-            font-family: 'roboto mono', monospace;
-            font-size: 0.9rem;
-            margin-top: 1rem;
-
-            opacity: 0.8;;
-          }
