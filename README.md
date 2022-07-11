@@ -1,5 +1,5 @@
 # 🔗 IsaacS.Sillva-links
-<q>Aplicação para agrupar links que desejo compartilhar</q>
+<q>Aplicação na qual agrupar links que desejo compartilhar.</q>
 ## 📜 Status
 > Status: Finished
 
