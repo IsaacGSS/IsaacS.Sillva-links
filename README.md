@@ -4,6 +4,7 @@
 > Status: Finished
 
 ## Technology
+> <a href="https://vercel.com"><img src="https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/180x180.png" title="vercel.com [Hospedagem]" style="width: 50px;" ></a>
 > <img src="https://22fde275-a0f7-493a-9331-c31456c551ee.id.repl.co/img/icons8-javascript.svg" title="Javascript" style="width: 50px;" >
 > <img src="https://22fde275-a0f7-493a-9331-c31456c551ee.id.repl.co/img/icons8-css3.svg" title="CSS-3" style="width: 50px;" >
 > <img src="https://22fde275-a0f7-493a-9331-c31456c551ee.id.repl.co/img/icons8-html-5.svg" title="HTML-5" style="width: 50px;" >
