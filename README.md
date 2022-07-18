@@ -17,5 +17,5 @@
 [existe um pokemon escondido]
 
 ## 👀 Preview
-> <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/49a7166b-92ba-4bb7-9ef5-8837bb9eb54d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220711%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220711T014808Z&X-Amz-Expires=86400&X-Amz-Signature=c092bc8236fb754b5284e6b660bef52bd20e56218ff616e001f450ffab86eb00&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" title="preview da app: hospedagem de links [Mobile]" style="width: 18%;"> 
-> <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/62032138-a8a7-4f92-90fa-3ec68bf4c450/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220711%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220711T014628Z&X-Amz-Expires=86400&X-Amz-Signature=699946b972c77420bdfbc19e081a7aa58f62ac8f2828923f74a48b3e992848f0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" title="preview da app: hospedagem de links" style="width: 78%;">
+> <img src="assets/md/mobile.png" title="preview da app: hospedagem de links [Mobile]" style="width: 18%;"> 
+> <img src="assets/md/Untitled.png" title="preview da app: hospedagem de links" style="width: 78%;">
